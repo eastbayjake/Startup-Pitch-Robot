@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta name="keywords" content="startup, start-up, pitch, startup ideas, Hack Reactor, Jake McGuire, eastbayjake, idea generator">
+  <link href="css/styles.css" rel="stylesheet" type="text/css"></link>
+  <link href='http://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:500' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <title>Startup Pitch Generator</title>
+</head>
+<body>
+  <div id="pitch">
+    <div id="idea">
+      <span id="prefix"></span><span id="suffix"></span>
+    </div>
+    <div id="tagline">
+      <em>"It's <span id="company"></span> for <span id="customer"></span>"</em>
+    </div>
+  </div>
+  <div class="spinContainer">
+    <div class="centerAlign">
+      <div class="spin" id="brag"></div>
+      <div class="spin" id="founder"></div>
+      <div class="spin" id="funding"></div>
+    </div>
+  </div>
+  <input type="button" id="button" value="Pitch"></input>
+  <div id="footer">
+    <span>
+      Created by <a href="http://www.eastbayjake.com">Jake McGuire</a><br>
+      <a href="https://github.com/eastbayjake">GitHub</a> | <a href="http://www.twitter.com/eastbayjake">Twitter</a> | <a href="http://eastbayjake.wordpress.com">Blog</a>
+    </span>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/generator.js"></script>
+</body>
+</html>
