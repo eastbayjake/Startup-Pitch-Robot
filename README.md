@@ -6,7 +6,11 @@ This is a generator for tech startup ideas. On load and with each button click, 
 This project had three goals:
 
   (1) Explore the Flickr API
+  
   (2) Demonstrate for a blog post how to build a simple ad lib generator app
+  
   (3) Entertain my friends
   
-If this helped you with any of those things, I'm really glad. I welcome pull requests to add funny items to any of the generator's arrays!
+If this helped you with any of those things, I'm really glad!
+
+I welcome pull requests to add funny items to any of the generator's arrays. You can check out the deployed version at http://startupbot.eastbayjake.com. Enjoy!
